@@ -1,0 +1,450 @@
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=&q=Gender=男士
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T105945.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=&q=Gender:男士
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T105931.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=&q=Gender:男士
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T105335.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=&q="Gender" : "男士"
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T105322.400.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=&q=男士
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T105308.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=&q=Gender:男士
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T105255.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=&q=男士
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T105233.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T095008-1.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T095008.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T095007.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T094953.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T094952.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T094951.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T094950.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T094949-1.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T094949.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T094841.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T094840.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T094724.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T094723.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T094722.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T094057.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T094056.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T094055.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T094054-1.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T094054.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T094053.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T094052.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T094051.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-14T094048.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-12T082844.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-12T082838.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-12T082837.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-12T082836.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-12T082733.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-12T082732.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-12T082731.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-12T082616.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-12T082615.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-12T082614.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-12T082515-2.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-12T082515-1.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-12T082515.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-12T082514.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-12T082513-1.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-12T082513.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-12T082512.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-12T082511-1.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-12T082511.200.json
+
+###
+
+GET http://localhost:9200/datint_profile/zhenai/_search?pretty=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-01-12T082510-1.200.json
+
+###
+

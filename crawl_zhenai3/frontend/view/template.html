@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>展示</title>
+
+
+</head>
+<body>
+<br>
+<div id="demo">
+    <div align="middle">
+        <form method="get">
+            <input type="text" maxlength="100" style="width: 500px;" value="{{.Query}}" name="q">
+            <button type="submit">搜索</button>
+        </form>
+    </div>
+    <h2 style="text-align:center;">共为你找到相关结果约为{{.Hits}}个。显示从{{.Start}}起共{{len .Items}}个。</h2>
+
+    <div>
+        <table id="table" align="center" style="width: 1200px; height: 450px">
+        {{/*<th>名称</th>*/}}
+        {{/*<th>性别</th>*/}}
+        {{/*<th>年龄</th>*/}}
+        {{/*<th>身高</th>*/}}
+        {{/*<th>体重</th>*/}}
+        {{/*<th>收入</th>*/}}
+        {{/*<th>教育</th>*/}}
+        {{/*<th>职业</th>*/}}
+        {{/*<th>籍贯</th>*/}}
+        {{/*<th>星座</th>*/}}
+        {{/*<th>房</th>*/}}
+        {{/*<th>车</th>*/}}
+            <tbody>
+            {{range .Items}}
+            <tr>
+                <td><a href="{{.Url}}">{{.Payload.Name}}</a></td>
+            {{with .Payload}}
+                <td>{{.Gender}}</td>
+                <td>{{.Age}}</td>
+                <td>{{.Height}}</td>
+                <td>{{.Weight}}</td>
+                <td>{{.Income}}</td>
+                <td>{{.Education}}</td>
+                <td>{{.Occupation}}</td>
+                <td>{{.Hukou}}</td>
+                <td>{{.Xingzuo}}</td>
+                <td>{{.House}}</td>
+                <td>{{.Car}}</td>
+            {{end}}
+            </tr>
+
+
+            {{else}}
+            <div>没有找到相关用户</div>
+            {{end}}
+            </tbody>
+        </table>
+
+        <div align="middle">
+        {{if ge .PrevFrom 0}}
+            <a href="search?q={{.Query}}&from={{.PrevFrom}}">上一页</a>
+        {{end}}
+            <a href="search?q={{.Query}}&from={{.NextFrom}}">下一页</a>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

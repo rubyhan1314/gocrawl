@@ -1,0 +1,38 @@
+{
+  "error": {
+    "root_cause": [
+      {
+        "type": "query_shard_exception",
+        "reason": "Failed to parse query [\"Gender\" : \"男士\"]",
+        "index_uuid": "y4NGzuHLRHCIifm69Lmdsw",
+        "index": "datint_profile"
+      }
+    ],
+    "type": "search_phase_execution_exception",
+    "reason": "all shards failed",
+    "phase": "query",
+    "grouped": true,
+    "failed_shards": [
+      {
+        "shard": 0,
+        "index": "datint_profile",
+        "node": "Iivf6EjGRNGfc7qBcwt7gA",
+        "reason": {
+          "type": "query_shard_exception",
+          "reason": "Failed to parse query [\"Gender\" : \"男士\"]",
+          "index_uuid": "y4NGzuHLRHCIifm69Lmdsw",
+          "index": "datint_profile",
+          "caused_by": {
+            "type": "parse_exception",
+            "reason": "Cannot parse '\"Gender\" : \"男士\"': Encountered \" \":\" \": \"\" at line 1, column 9.\nWas expecting one of:\n    <EOF> \n    <AND> ...\n    <OR> ...\n    <NOT> ...\n    \"+\" ...\n    \"-\" ...\n    <BAREOPER> ...\n    \"(\" ...\n    \"*\" ...\n    \"^\" ...\n    <QUOTED> ...\n    <TERM> ...\n    <FUZZY_SLOP> ...\n    <PREFIXTERM> ...\n    <WILDTERM> ...\n    <REGEXPTERM> ...\n    \"[\" ...\n    \"{\" ...\n    <NUMBER> ...\n    ",
+            "caused_by": {
+              "type": "parse_exception",
+              "reason": "Encountered \" \":\" \": \"\" at line 1, column 9.\nWas expecting one of:\n    <EOF> \n    <AND> ...\n    <OR> ...\n    <NOT> ...\n    \"+\" ...\n    \"-\" ...\n    <BAREOPER> ...\n    \"(\" ...\n    \"*\" ...\n    \"^\" ...\n    <QUOTED> ...\n    <TERM> ...\n    <FUZZY_SLOP> ...\n    <PREFIXTERM> ...\n    <WILDTERM> ...\n    <REGEXPTERM> ...\n    \"[\" ...\n    \"{\" ...\n    <NUMBER> ...\n    "
+            }
+          }
+        }
+      }
+    ]
+  },
+  "status": 400
+}

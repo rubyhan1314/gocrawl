@@ -1,0 +1,21 @@
+{
+  "error": {
+    "root_cause": [
+      {
+        "type": "index_not_found_exception",
+        "reason": "no such index",
+        "resource.type": "index_or_alias",
+        "resource.id": "datit_profile",
+        "index_uuid": "_na_",
+        "index": "datit_profile"
+      }
+    ],
+    "type": "index_not_found_exception",
+    "reason": "no such index",
+    "resource.type": "index_or_alias",
+    "resource.id": "datit_profile",
+    "index_uuid": "_na_",
+    "index": "datit_profile"
+  },
+  "status": 404
+}
